@@ -1,7 +1,7 @@
 # Language: pt
 Funcionalidade: Produtos
 
-    Cenário: Comprar produto
+    Cenário: Pesquisar por produto
         Dado que esteja na Home
         Quando abrir a barra de pesquisa
         E pesquisar por computador

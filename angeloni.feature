@@ -1,5 +1,5 @@
 # Language: pt
-Funcionalidade: Venda produtos
+Funcionalidade: Produtos
 
     Cenário: Procurar por departamentos
         Dado que esteja na Home Page
