@@ -6,5 +6,4 @@ Funcionalidade: Venda produtos
         Quando acessar departamentos
         E abrir o primeiro departamento
         E abrir o primeiro item do departamento
-        Então deverá exibir o departamento black friday especial site
-        E deverá ser exibido a opção de comprar água de coco
+        Então deverá exibir o produto água de coco
