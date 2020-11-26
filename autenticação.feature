@@ -11,15 +11,14 @@ Funcionalidade: Autenticação
             E deverá ser exibido o nome do usuário no Header
 
         Esquema do Cenário: Realizar Login exception
-            Quando realizar Login com "<tipo_erro>"
-            Então deverá exibir a mensagem de erro "<mensagem>"
+            Quando realizar Login com "<usuário>" e "<senha>"
+            Então deverá exibir a mensagem "<erro>"
 
             Exemplos:
-                | tipo_erro            | mensagem                                    |
-                | senha inválida       | Verifique o login e a senha para continuar. |
-                | email não cadastrado | Verifique o login e a senha para continuar. |
-                | CPF inválido         | Insira um CPF, CNPJ ou E-mail válido.       |
-                | CNPJ inválido        | Insira um CPF, CNPJ ou E-mail válido.       |
+                | usuário            | senha  | erro                                        |
+                | teste@gmail.com    | errada | Verifique o login e a senha para continuar. |
+                | errado@hotmail.com | teste1 | Verifique o login e a senha para continuar. |
+                | xdxd               | 123456 | Insira um CPF, CNPJ ou E-mail válido.       |
 
         Cenário: Realizar Logout
             Dado que esteja logado
@@ -32,7 +31,7 @@ Funcionalidade: Autenticação
             E deverá ser exibido o nome do usuário no Header
 
         Esquema do Cenário: Registrar Usuário exception
-            Quando inserir um "<erro>" em Cadastro
+            Quando inserir "<erro>" em Cadastro
             Então deverá exibir a mensagem de erro "<mensagem>"
             
             Exemplos:
