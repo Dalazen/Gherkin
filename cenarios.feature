@@ -21,6 +21,11 @@ Funcionalidade: Autenticação
             | errado@hotmail.com | teste1 | Verifique o login e a senha para continuar. |
             | xdxd               | 123456 | Insira um CPF, CNPJ ou E-mail válido.       |
 
+    Cenário: Realizar Logout
+        Dado que esteja na Home
+        Quando executar Logout
+        Então deverá encerrar a sessão
+
     Esquema do Cenário: Registrar Usuário
         Dado que esteja na Home
         Quando abrir Login
