@@ -1,4 +1,4 @@
-# Language: pt
+#Language: pt
 Funcionalidade: Produtos
 
     Cenário: Procurar por departamentos

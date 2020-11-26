@@ -1,4 +1,4 @@
-# Language: pt
+#Language: pt
 Funcionalidade: Autenticação
 
     Cenário: Abrir Login
