@@ -22,7 +22,13 @@ Funcionalidade: Carrinho
 
     Contexto: Credenciado
     Dado que esteja logado
+    E esteja no carrinho
         
+        Cenário: Salvar para mais tarde
+            Quando selecionar salvar para mais tarde
+            Então deverá adicionar produto a lista de desejos
+            E remover produto do carrinho
+
         Cenário: Verificar frete
             Quando existir produtos no carrinho
             E prosseguir com a compra
