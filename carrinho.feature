@@ -21,8 +21,8 @@ Funcionalidade: Carrinho
         Então deverá requerir autenticação
 
     Contexto: Credenciado
-    Dado que esteja logado
-    E esteja no carrinho
+        Dado que esteja logado
+        E que esteja no carrinho
         
         Cenário: Salvar para mais tarde
             Quando selecionar salvar para mais tarde
