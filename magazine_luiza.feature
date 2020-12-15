@@ -1,4 +1,4 @@
-#Language: pt
+#language: pt
 Funcionalidade: Produtos
 
     Cenário: Pesquisar por produto
